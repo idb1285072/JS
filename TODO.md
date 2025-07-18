@@ -7,7 +7,12 @@
 - Operator
 - Template Literals
 - Environment SetUp for Angular and JavaScript
-
+- Function 
+- Object
+- Event
+- String
+- String Templates
+- Number
 # GitHub push
 - `git init`
 - `git add .`
