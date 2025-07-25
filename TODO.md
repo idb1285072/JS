@@ -1,19 +1,12 @@
 # TODO
-- Statements
-- Syntax
-- Comment
-- JavaScript Datatypes
-- Let, Const, Var
-- Operator
-- Template Literals
-- Environment SetUp for Angular and JavaScript
-- Function 
-- Object
-- Event
-- String
-- String Templates
-- Number
+
+- Async/Await, Promise, Callback
+- Event Loop
+- DOM Manipulation & Traversal
+- Event Handling (bubbling, delegation, Capturing etc.)
+
 # GitHub push
+
 - `git init`
 - `git add .`
 - `git commit -m "Inital Commit"`
@@ -21,11 +14,24 @@
 - `git push -u origin master`
 
 # GitHub Changed
+
 - `git status`
 - `git add .` or `git add fileName1, fileName2`
 - `git commit -m "Add feature X / Fix bug Y / Update README"`
 - `git push`
 
+# Git Clone
+
+```bush
+git clone https://github.com/username/project.git
+git clone git@github.com:username/project.git
+git clone https://github.com/username/project.git my-folder-name
+```
 
 # Repository Link
+
 `https://github.com/idb1285072/JS/`
+
+
+---
+
