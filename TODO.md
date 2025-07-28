@@ -5,6 +5,11 @@
 - DOM Manipulation & Traversal
 - Event Handling (bubbling, delegation, Capturing etc.)
 
+- BOM
+- Web API
+- Ajax
+- JSON
+
 # GitHub push
 
 - `git init`
