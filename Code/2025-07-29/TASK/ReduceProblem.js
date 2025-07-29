@@ -4,14 +4,11 @@ const employees = [
   { name: "Charlie", department: "HR" },
 ];
 
-// const formatEmployees = employees.reduce((employee, index, employees) => {
-//  employee
-// });
-// console.log(formatEmployees);
-const formatEmployees = {};
-employees.forEach((employee, index, employees) => {
-  console.log(employee.department);
-  // formatEmployees.employee.department=employee.name
-  
-});
-console.log(formatEmployees)
+const formattedEmployees = employees.reduce((format, employee) => {
+  if (!Object.keys(format).includes(employee.department))
+    format[employee.department] = [employee.name];
+  else format[employee.department].push(employee.name);
+  return format;
+}, {});
+
+console.log(formattedEmployees);
